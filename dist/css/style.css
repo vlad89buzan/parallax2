@@ -471,28 +471,28 @@ main {
 }
 
 .no-webp .parallax1 {
-  background: url(../img/first.jpeg); }
+  background: url(../img/first.jpeg) center/cover no-repeat fixed; }
 
 .parallax1 {
   min-height: 100vh;
 }
 
 .no-webp .parallax2 {
-  background: url(../img/second.jpeg); }
+  background: url(../img/second.jpeg) center/cover no-repeat fixed; }
 
 .parallax2 {
   min-height: 60vh;
 }
 
 .no-webp .parallax3 {
-  background: url(../img/third.jpeg); }
+  background: url(../img/third.jpeg) center/cover no-repeat fixed; }
 
 .parallax3 {
   min-height: 40vh;
 }
 
 .no-webp .parallax4 {
-  background: url(../img/fourth.jpeg); }
+  background: url(../img/fourth.jpeg) center/cover no-repeat fixed; }
 
 .parallax4 {
   min-height: 100vh;
@@ -501,10 +501,6 @@ main {
 .parallax {
   position: relative;
   opacity: 0.75;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .heading {
@@ -563,10 +559,10 @@ main {
   }
 }
 
-.webp .parallax1 { background: url(../img/first.webp); }
+.webp .parallax1 { background: url(../img/first.webp) center/cover no-repeat fixed; }
 
-.webp .parallax2 { background: url(../img/second.webp); }
+.webp .parallax2 { background: url(../img/second.webp) center/cover no-repeat fixed; }
 
-.webp .parallax3 { background: url(../img/third.webp); }
+.webp .parallax3 { background: url(../img/third.webp) center/cover no-repeat fixed; }
 
-.webp .parallax4 { background: url(../img/fourth.webp); }
+.webp .parallax4 { background: url(../img/fourth.webp) center/cover no-repeat fixed; }

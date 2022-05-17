@@ -32,32 +32,29 @@ main {
 }
 
 .parallax1 {
-  background: url(@img/first.jpeg);
+  background: url(@img/first.jpeg) center/cover no-repeat fixed;
   min-height: 100vh;
  
 }
 .parallax2 {
-  background: url(@img/second.jpeg);
+  background: url(@img/second.jpeg) center/cover no-repeat fixed;
   min-height: 60vh;
  
 }
 .parallax3 {
-  background: url(@img/third.jpeg);
+  background: url(@img/third.jpeg) center/cover no-repeat fixed;
   min-height: 40vh;
  
 }
 .parallax4 {
-  background: url(@img/fourth.jpeg);
+  background: url(@img/fourth.jpeg) center/cover no-repeat fixed;
   min-height: 100vh;
  
 }
 .parallax {
   position: relative;
   opacity: 0.75;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+ 
  
 }
 .heading {
