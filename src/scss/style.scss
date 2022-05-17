@@ -1,0 +1,110 @@
+@import "normalize";
+@import "var";
+// @import "fonts";
+//@import "mixins";
+// @import 'blocks/header';
+// @import 'blocks/adaptuvne__menu';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  line-height: 180%;
+  color: #666;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.parallax1 {
+  background: url(@img/first.jpeg);
+  min-height: 100vh;
+ 
+}
+.parallax2 {
+  background: url(@img/second.jpeg);
+  min-height: 60vh;
+ 
+}
+.parallax3 {
+  background: url(@img/third.jpeg);
+  min-height: 40vh;
+ 
+}
+.parallax4 {
+  background: url(@img/fourth.jpeg);
+  min-height: 100vh;
+ 
+}
+.parallax {
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+}
+.heading {
+  position: absolute;
+  color: white;
+  font-size: 10vw;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-shadow: 0 0 10px #000;
+}
+.text {
+  padding: 50px;
+text-align: center;
+		&__title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+
+		}
+
+		&__subtitle {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+		}
+
+		&__row {
+      display: flex;
+      gap: 50px;
+      @media (max-width:$bp992) {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+		}
+
+		&__column {
+      text-align: justify;
+		}
+}
+.text2{
+  color: #fff;
+  background-color: #000;;
+}
+
+
+
+
